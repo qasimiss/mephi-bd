@@ -1,5 +1,5 @@
 import pandas as pd
-from pandas.core.generic import FilePath
+from pandas._typing import FilePath
 from pandas.testing import assert_frame_equal
 
 

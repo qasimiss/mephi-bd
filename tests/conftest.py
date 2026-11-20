@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import pytest
-from pandas.core.generic import FilePath
+from pandas._typing import FilePath
 
 
 @pytest.fixture
